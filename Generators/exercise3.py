@@ -6,4 +6,6 @@ def div_3_and_4(N):
             yield i
 
 N=int(input())+1
-print(list(div_3_and_4(N)))
+for i in div_3_and_4(N):
+    print(i)
+
